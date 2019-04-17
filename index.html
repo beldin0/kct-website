@@ -13,7 +13,6 @@
   <title>Kent Cancer Trust BETA SITE</title>
   <link href="https://fonts.googleapis.com/css?family=eb+garamond" rel="stylesheet">
   <style>
-
     html {
       font-size: 1.2rem;
     }
@@ -27,7 +26,7 @@
     .navbar-light .nav-item:focus .nav-link,
     .navbar-light .nav-item:hover .nav-link,
     .dropdown-item {
-      color:darkslategray !important;
+      color: darkslategray !important;
     }
 
     img {
@@ -43,9 +42,24 @@
       font-family: 'EB Garamond', serif;
     }
 
-    #footerWrapper{
+    #footerWrapper {
       width: 100%;
       height: 100%;
+    }
+
+    .vertical-align {
+      letter-spacing: -4px;
+      font-size: 0;
+    }
+
+    .vertical-align {
+      vertical-align: middle;
+      min-height: 50px;
+      max-height: 80px;
+      display: inline-block;
+      letter-spacing: 0;
+      font-size: 14px;
+      float: none;
     }
   </style>
 </head>
@@ -95,29 +109,29 @@
           <li class="nav-item dropdown px-2">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
               aria-expanded="false">Cancer Support</a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Cancer care club</a>
-              </div>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Cancer care club</a>
+            </div>
           </li>
           <li class="nav-item dropdown px-2">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
               aria-expanded="false">How To Get Involved</a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Make a donation</a>
-                <a class="dropdown-item" href="#">Become a volunteer</a>
-                <a class="dropdown-item" href="#">Fundraising and sponsorship ideas</a>
-                <a class="dropdown-item" href="#">Corporate support</a>
-                <a class="dropdown-item" href="#">Kent Cancer Trust events</a>
-                <a class="dropdown-item" href="#">Legacies</a>
-                <a class="dropdown-item" href="#">Collections in memory</a>
-              </div>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Make a donation</a>
+              <a class="dropdown-item" href="#">Become a volunteer</a>
+              <a class="dropdown-item" href="#">Fundraising and sponsorship ideas</a>
+              <a class="dropdown-item" href="#">Corporate support</a>
+              <a class="dropdown-item" href="#">Kent Cancer Trust events</a>
+              <a class="dropdown-item" href="#">Legacies</a>
+              <a class="dropdown-item" href="#">Collections in memory</a>
+            </div>
           </li>
           <li class="nav-item dropdown px-2">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
               aria-expanded="false">Contact us</a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">item1</a>
-              </div>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">item1</a>
+            </div>
           </li>
         </ul>
       </div>
@@ -134,7 +148,7 @@
 
           <p>Kent Cancer Trust is a charity dedicated to improving cancer care in Kent and
             to funding innovative research that will directly benefit cancer patients in Kent. </p>
-            <p>All the money that we
+          <p>All the money that we
             raise in Kent, we spend in Kent.</p>
 
           <div class="h5">Our work includes:</div>
@@ -156,35 +170,48 @@
       </div>
     </div>
   </div>
-</div>
+  </div>
   <hr style="color:red; background-color: red">
-  <div class="row justify-content-center py-1">
-      With thanks to our corporate sponsors:
-    </div>
-  <div class="row justify-content-left px-2">
+  <div class="row justify-content-center py-1 small">
+    With thanks to our corporate sponsors:
+  </div>
+  <div class="row justify-content-left px-2 pb-3 small">
     <div class="col-3">
       <div class="px-4"><a href="#" class="text-secondary">About Kent Cancer Trust</a></div>
       <div class="px-4"><a href="#" class="text-secondary">Data Protection Policy</a></div>
     </div>
     <div class="col-6">
-      <div class="row justify-content-center">
-          <img src="static/hiway.png" width="30%" class="d-block col-3"></img>
-          <img src="static/sharp.png" width="50%" class="d-block col-3"></img>
-          <img src="static/theatre.png" width="30%" class="d-block col-3"></img>
-      </div>
+        <div class="row">
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <a href="">
+                  <img src="static/hiway.png" alt="Hi-Way Services Ltd" width="60%">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <a href="">
+                  <img src="static/sharp.png" alt="Sharp Printing Services" width="80%">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <a href="">
+                  <img src="static/theatre.png" alt="Kent Coast Theatre" width="60%">
+                </a>
+              </div>
+            </div>
+          </div>
     </div>
     <div class="col-3">
       <div class="row">
         <img src="static/FindUs-FB-RGB-BRC-Site-500.png" width="60%" class="d-block col-6"></img>
         <img src="static/Twitter_Social_Icon_Circle_Color.png" width="12%" class="d-block col-2"></img>
       </div>
-        
+
     </div>
-  </div>
-  <div class="row justify-content-center font-Garamond" id="footerWrapper">
-    <div class="px-1"><span style="font-weight: bold">Kent Cancer Tr<em>us</em>t</span> needs your help.</div>
-    <div class="px-1">Click <a href="/fund-raising/donations/">here</a> to find out how.</div>
-    <div class="px-1">Follow us on <a href="https://www.facebook.com/Kent-Cancer-Trust-248960198540356/"  target="_blank">Facebook!</a></div>
   </div>
 
   <!-- Optional JavaScript -->
